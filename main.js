@@ -4,7 +4,7 @@ const { program } = require('commander');
 
 // 1. Налаштування параметрів командного рядка
 program
-  .option('-H, --host <host>', 'server host')
+  .option('-h, --host <host>', 'server host')
   .option('-p, --port <port>', 'server port');
 
 program.parse(process.argv);
